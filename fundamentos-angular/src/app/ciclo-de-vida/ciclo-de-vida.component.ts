@@ -14,11 +14,11 @@ timer: any = null;
 
   //ngOnInit é o primeiro ciclo de vida que dispara quando se renderiza um componente
   ngOnInit(): void {
-    alert("evento onInit disparou");
+    console.log("evento onInit disparou");
     this.timer = setInterval(() => this.horario = new Date(), 1000);
   }
 ngOnChanges(changes: SimpleChanges): void {
-  alert("O evento onChanges disparou com as seguintes mudanças" + changes);
+  console.log("O evento onChanges disparou com as seguintes mudanças" + changes);
 }
 ngOnDestroy(): void {
   clearInterval(this.timer);

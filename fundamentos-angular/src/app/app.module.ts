@@ -18,10 +18,11 @@ import { ExemploServicos1Component } from './exemplo-servicos1/exemplo-servicos1
 import { ExemploServicos2Component } from './exemplo-servicos2/exemplo-servicos2.component';
 import { CicloDeVidaComponent } from './ciclo-de-vida/ciclo-de-vida.component';
 import { CicloDeVidaPaiComponent } from './ciclo-de-vida-pai/ciclo-de-vida-pai.component';
+import { CardComponent } from './card/card.component';
 
 @NgModule({
   declarations: [
-    AppComponent,PrimeiroComponenteComponent, SegundoComponenteComponent, MultiplicaPorPipe, PipeCustomizadoComponent, TwoWayDataBidingComponent, RendenrizandoListasComponent, ComponentePersonalizadoComponent, ComponentePaiComponent, ComponenteFilhoComponent, ExemploServicos1Component, ExemploServicos2Component, CicloDeVidaComponent, CicloDeVidaPaiComponent
+    AppComponent,PrimeiroComponenteComponent, SegundoComponenteComponent, MultiplicaPorPipe, PipeCustomizadoComponent, TwoWayDataBidingComponent, RendenrizandoListasComponent, ComponentePersonalizadoComponent, ComponentePaiComponent, ComponenteFilhoComponent, ExemploServicos1Component, ExemploServicos2Component, CicloDeVidaComponent, CicloDeVidaPaiComponent, CardComponent
   ],
   imports: [
     BrowserModule,
