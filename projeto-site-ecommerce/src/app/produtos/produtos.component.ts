@@ -13,12 +13,12 @@ produtos: IProduto[] | undefined;
 
   constructor(
 
-    private produtoService: ProdutosService
+    private produtosService: ProdutosService
 
   ) { }
 
   ngOnInit(): void {
-    this,this.produtos = this.produtoService.getAll();
+    this.produtos = this.produtosService.getAll();
   }
 
 }

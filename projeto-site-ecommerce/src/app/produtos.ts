@@ -11,7 +11,7 @@ export interface IProdutoCarrinho extends IProduto {
 quantidade: number;
 }
 
-export const produtos : IProduto[] = [
+export const produtos: IProduto[] = [
     { id: 1, descricao: "Mouse gamer", preco: 439.00, descricaoPreco: "À vista no PIX", imagem: "/assets/mouse-3.jpg", quantidadeEstoque: 8 },
     { id: 2, descricao: "Monitor muito bom", preco: 1200.50, descricaoPreco: "À vista no PIX", imagem: "/assets/monitor-1.jpg", quantidadeEstoque: 10 },
     { id: 3, descricao: "Teclado excelente", preco: 749.99, descricaoPreco: "À vista no PIX", imagem: "/assets/teclado-1.jpg", quantidadeEstoque: 10 },
